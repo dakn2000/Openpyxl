@@ -1,0 +1,7 @@
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('Royal.xlsx')
+
+wb.create_sheet('Test')
+  
+print(wb.sheetnames)
